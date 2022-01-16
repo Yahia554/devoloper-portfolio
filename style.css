@@ -28,12 +28,12 @@ h1{
 }
 #full-web-dev-exp{
     border-left:solid 8px;
-    border-image: linear-gradient(blue,cyan);
+    border-image: linear-gradient(tomato,orange);
     border-image-slice: 1;
 }
 #baby-web-dev-exp{
     border-left:solid 8px;
-    border-image: linear-gradient(orange,tomato);
+    border-image: linear-gradient(blue,skyblue);
     border-image-slice: 1;
 }
 .half-widts img{
@@ -66,4 +66,7 @@ h1{
 }
 .big{
     font-size: 40px;
+}
+footer p {
+    text-align: center;
 }
