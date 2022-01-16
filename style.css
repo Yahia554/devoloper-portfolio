@@ -6,7 +6,7 @@ h1{
     font-size: 50;
 }
 .yello{
-    color: yellow;
+    color: orange;
 }
 .flexible-container{
     display:flex;
@@ -16,6 +16,25 @@ h1{
 .half-widts{
     width: 50%;
     padding-left: 10%;
+}
+.expriance-item{
+    width: 50%;
+    box-shadow:10px 10px 25px rgb(109, 108, 105);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 5%;
+}
+#full-web-dev-exp{
+    border-left:solid 8px;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#baby-web-dev-exp{
+    border-left:solid 8px;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
 }
 .half-widts img{
     width: 70%;
@@ -38,4 +57,13 @@ h1{
     background-position: right;
     padding-right: 10%;
     
+}
+.expriance-add{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.big{
+    font-size: 40px;
 }
